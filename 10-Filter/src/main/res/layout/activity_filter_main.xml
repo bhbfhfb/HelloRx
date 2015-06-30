@@ -6,16 +6,16 @@
 
     <EditText
         android:id="@+id/et_main"
-        android:maxEms="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:maxEms="1" />
 
     <ListView
-        android:layout_below="@+id/et_main"
         android:id="@+id/list_main"
-        android:padding="12dp"
-        android:clipToPadding="false"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_main"
+        android:clipToPadding="false"
+        android:padding="12dp" />
 
 </RelativeLayout>

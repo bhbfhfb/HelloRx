@@ -2,70 +2,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/txt_data"
         android:layout_width="match_parent"
-        android:textSize="20sp"
+        android:layout_height="wrap_content"
         android:text="Data : a ~ z"
-        android:layout_height="wrap_content" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txt_result"
         android:layout_width="match_parent"
-        android:layout_marginTop="4dp"
-        android:textSize="17sp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/txt_data"
+        android:layout_marginTop="4dp"
         android:text="Result : "
-        android:layout_height="wrap_content" />
+        android:textSize="17sp" />
 
     <LinearLayout
-        android:layout_below="@id/txt_result"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_result"
         android:layout_marginTop="10dp"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_first"
-            android:text="first()"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="first()" />
 
         <Button
             android:id="@+id/btn_last"
-            android:text="last()"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="last()" />
 
         <Button
             android:id="@+id/btn_to_iterator"
-            android:text="toIterator()"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="toIterator()" />
 
         <Button
             android:id="@+id/btn_get_iterator"
-            android:text="getIterator()"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="getIterator()" />
 
         <Button
             android:id="@+id/btn_to_future"
-            android:text="toFuture()"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="toFuture()" />
 
         <Button
             android:id="@+id/btn_foreach"
-            android:text="forEach()"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="forEach()" />
     </LinearLayout>
 
 </RelativeLayout>
