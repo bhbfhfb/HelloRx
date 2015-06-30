@@ -1,0 +1,3 @@
+include ':01-SimpleObservable', ':02-SimpleSubscriber', ':03-SimpleMap', ':04-Java8Lambda',
+        ':05-EditText', ':06-MergeWith', ':07-Scan', ':08-Combine', ':09-Blocking', ':10-Filter',
+        ':11-Sample'

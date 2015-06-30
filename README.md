@@ -1,2 +1,0 @@
-# HelloRx
-RxAndroid examples
